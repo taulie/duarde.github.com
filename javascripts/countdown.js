@@ -14,21 +14,8 @@ function countdown() {
                  
                  
     // Hier alle Termine chronologisch(!) mit Datum und Text anlegen
-    endTime[0] = new Date(2012, 4, 12, 20, 0, 0); //Jahr, Monat - 1 !!!!!!!, Tag, Stunden, Minuten, Sekunden
-    text[0] = 'zum DFB Pokal Finale 2012 in Berlin';
-    endTime[1] = new Date(2012, 4, 19, 20, 45, 0); //Jahr, Monat - 1 !!!!!!!, Tag, Stunden, Minuten, Sekunden
-    text[1] = 'zum Championsleague Finale 2012 in München';
-    endTime[2] = new Date(2012, 5, 8, 18, 0, 0); //Jahr, Monat - 1 !!!!!!!, Tag, Stunden, Minuten, Sekunden
-    text[2] = 'zum Beginn der Fußball EM 2012';
-    endTime[3] = new Date(2012, 6, 1, 20, 45, 0); //Jahr, Monat - 1 !!!!!!!, Tag, Stunden, Minuten, Sekunden
-    text[3] = 'zum Fußball EM Finale 2012';
-    endTime[4] = new Date(2012, 7, 24, 20, 30, 0); //Jahr, Monat - 1 !!!!!!!, Tag, Stunden, Minuten, Sekunden
-    text[4] = 'zum Start in die 50. Bundesliga Saison';            
-    endTime[5] = new Date(2013, 4, 18, 15, 30, 0); //Jahr, Monat - 1 !!!!!!!, Tag, Stunden, Minuten, Sekunden
-    text[5] = 'zum letzten Spieltag der Bundesliga Saison 12/13';
-    endTime[6] = new Date(2013, 5, 1, 20, 0, 0); //Jahr, Monat - 1 !!!!!!!, Tag, Stunden, Minuten, Sekunden
-    text[6] = 'zum DFB Pokal Finale 2013 in Berlin';
-                 
+    endTime[0] = new Date(2013, 1, 14, 7, 0, 0); //Jahr, Monat - 1 !!!!!!!, Tag, Stunden, Minuten, Sekunden
+    text[0] = 'bis Rewe wieder öffnet';                 
                  
     // Berechnung des nächsten Termins           
     var timeNow = new Date();
